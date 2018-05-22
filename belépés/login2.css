@@ -1,0 +1,54 @@
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:200&subset=latin-ext';
+
+html, 
+body {
+    height:100%;
+    margin:0;
+    padding:0;
+    font-family:work sans,Arial;
+    color:white;
+}
+
+body {
+    background-color:#4d4ace;
+}
+
+h1 {    
+    text-align: center;
+    font-size: 70px;
+}
+
+input {
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 5%;
+}
+
+.kozepre {
+    position:absolute;
+    top:60%;
+    margin-bottom:-50%;
+    left:55%;
+    margin-right:-50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+
+.buttonbelepes { 
+    background-color:#4d4ace;
+    border-width: 5px;
+    border-radius:5px;
+    width: 170px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.buttonbelepes:hover {
+    background-color:#060486;
+}
+
+.formcontainer {
+    width:300px;
+    font-family:Arial;
+    font-size:20px;
+}

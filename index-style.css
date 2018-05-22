@@ -1,0 +1,101 @@
+ body,
+ html {
+     width: 100%;
+     height: 100%;
+     margin: 0;
+ }
+
+ .header {
+     white-space: normal;
+     position: fixed;
+     top: 0;
+     height: auto;
+     display: block;
+     text-align: center;
+     border: 0;
+     border-bottom: 2px;
+     border-style: solid;
+     background-color: antiquewhite;
+     margin: 0;
+     width: 100%;
+ }
+
+ .header>h1 {
+     line-height: 5%;
+ }
+
+ .navbar {
+     margin: 0;
+     position: fixed;
+     text-align: center;
+     top: 41px;
+     width: 100%;
+     border-bottom-style: double;
+     border-bottom-width: 2px;
+     background-color: honeydew;
+ }
+
+ .navbar form {
+     display: inline-block;
+ }
+
+ .login-form {
+     position: fixed;
+ }
+
+ .navbar-vertical {
+     text-align: center;
+     position: fixed;
+     top: 64px;
+     border-right-style: double;
+     border-right-width: 2px;
+     height: 100%;
+     width: auto;
+     float: left;
+ }
+
+ .navbar-vertical>* {
+     margin-top: 5px;
+     margin-bottom: 5px;
+ }
+
+ .navbar-vertical button {
+     width: 80%;
+ }
+
+ #content {
+     align-content: center;
+     left: 20%;
+     top: 75px;
+     position: relative;
+     width: 60%;
+     height: 615px;
+     text-align: center;
+     background-color: ghostwhite;
+ }
+
+ th,
+ td {
+     border: 1px solid;
+ }
+
+ th {
+     font-weight: bold
+ }
+
+ #dataTable,
+ #dataTable * {
+     border: 0;
+ }
+
+ #dataTable {
+     margin: auto;
+ }
+
+ #dataTable tr:nth-child(odd) {
+     background-color: burlywood;
+ }
+
+ #dataTable th {
+     background-color: darkcyan;
+ }
