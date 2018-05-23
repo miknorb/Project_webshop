@@ -3,6 +3,7 @@
      width: 100%;
      height: 100%;
      margin: 0;
+     font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
  .header {
@@ -13,8 +14,8 @@
      display: block;
      text-align: center;
      border: 0;
-     border-bottom: 2px;
-     border-style: solid;
+    /* border-bottom: 2px;
+     border-style: solid;*/
      background-color: antiquewhite;
      margin: 0;
      width: 100%;
@@ -28,11 +29,11 @@
      margin: 0;
      position: fixed;
      text-align: center;
-     top: 41px;
+     top: 15%;
      width: 100%;
-     border-bottom-style: double;
-     border-bottom-width: 2px;
-     background-color: honeydew;
+     /*border-bottom-style: double;
+     border-bottom-width: 2px;*/
+     background-color: #4d4ace;
  }
 
  .navbar form {
@@ -44,32 +45,33 @@
  }
 
  .navbar-vertical {
+     background-color: #4d4ace;
      text-align: center;
      position: fixed;
-     top: 64px;
-     border-right-style: double;
-     border-right-width: 2px;
+     top: 0%;
+    /* border-right-style: double;
+    border-right-width: 2px;*/
      height: 100%;
      width: auto;
      float: left;
  }
 
  .navbar-vertical>* {
-     margin-top: 5px;
-     margin-bottom: 5px;
+     margin-top: 10px;
+     margin-bottom: 10px;
  }
 
  .navbar-vertical button {
-     width: 80%;
+     width: 100%;
  }
 
  #content {
      align-content: center;
      left: 20%;
-     top: 75px;
+     top: 30%;
      position: relative;
      width: 60%;
-     height: 615px;
+     height: 620px;
      text-align: center;
      background-color: ghostwhite;
  }
@@ -99,3 +101,56 @@
  #dataTable th {
      background-color: darkcyan;
  }
+
+button {
+    padding: 0px 2px;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-text-fill-color: white;
+    color: transparent;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #8e5e3e88;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 9px #232520;
+    width: 250px;
+    height: 30px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:10px;
+    margin-bottom: 10px;
+ }
+
+ button:hover {
+    background-color: rgb(136, 33, 7);
+    float: left;
+    -webkit-text-fill-color: black;
+}
+
+button:active {
+    background-color: #8e5e3e88;
+    box-shadow: 0 5px #383b34;
+    transform: translateY(10px);
+    float: left;    
+}
+
+h1 {
+    font-size: 80px;
+    color:#49312088;
+    background-color: 8e5e3e;
+}
+
+  
+.gomb {
+    position: relative; 
+    top: 20%;
+}
+
+img {
+    position: absolute;
+    top:0;
+    width: 14%;
+    height: 22%;
+}

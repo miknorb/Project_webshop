@@ -5,46 +5,52 @@
     <link rel="stylesheet" href="index-style.css">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Születésnapi kellékek</title>
+    <title>Webshop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
+
     <div class="header">
-        <h1>Partykellékek</h1>
+        <h1>Webshop</h1>
     </div>
     <div class="navbar">
         <form action="regisztráció/regisztráció.html">
             <button>Regisztráció</button>
         </form>
-        <form action="/belépés/belepes.html">
+        <form action="belépés/belepes.html">
             <button>Belépés</button>
         </form>
-        <form action="/kosár/cart.html">
+        <form action="kosár/cart.html">
             <button>Kosár</button>
         </form>
 
     </div>
     <div class="navbar-vertical">
-        Teszt
-        <br> lekérdezések:
-        <br>
-        <button onclick="top10()">Havi top 10</button>
-        <br>
-        <button onclick="currentOnline()">Online felhasználók</button>
-        <br>
-        <button onclick="orders()">Rendelések</button>
-        <br>
-        <button onclick="top3()">Top 3 vásárló</button>
-        <br>
-        <button onclick="freshUsers()">Friss felhasználók</button>
+
+        <div class="gomb">
+            <button onclick="top10()">Havi top 10</button>
+            <br>
+            <button onclick="currentOnline()">Online felhasználók</button>
+            <br>
+            <button onclick="orders()">Rendelések</button>
+            <br>
+            <button onclick="top3()">Top 3 vásárló</button>
+            <br>
+            <button onclick="budapestiek()">Budapesti felhasználók</button>
+            <br>
+            <button onclick="osszesrendeles()">Összes rendelés</button>
+            <br>
+            <button onclick="osszesar()">Árak összesen</button>
+
+        </div>
     </div>
     <div id="content">
         <table id="dataTable">
         </table>
     </div>
-
-    <script src="scripts/client.js "></script>
+    <img src="webshop.jpg">
+    <script src=" client.js "></script>
     <script src="scripts/pesti.js "></script>
     <script src="scripts/rendelesar.js "></script>
     <script src="scripts/termekarak_ossz.js "></script>
