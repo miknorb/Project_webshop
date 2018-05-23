@@ -1,4 +1,4 @@
 function rendelesar() {
-    SQL("SELECT SUM(amount * price) " +
+    sql("SELECT SUM(amount * price) " +
         "FROM `orders`")
 }
