@@ -103,10 +103,17 @@
  }
 
 button {
+<<<<<<< HEAD
     padding: 0px 2px;
     font-size: 20px;
     cursor: pointer;
     -webkit-text-fill-color: white;
+=======
+    padding: 5px 8px;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-text-fill-color: red;
+>>>>>>> origin/master
     color: transparent;
     text-align: center;
     text-decoration: none;
@@ -118,7 +125,11 @@ button {
     width: 250px;
     height: 30px;
     float: left;
+<<<<<<< HEAD
     font-family: Georgia, 'Times New Roman', Times, serif;
+=======
+    font-family: cursive;
+>>>>>>> origin/master
     margin-top:10px;
     margin-bottom: 10px;
  }
@@ -138,7 +149,11 @@ button:active {
 
 h1 {
     font-size: 80px;
+<<<<<<< HEAD
     color:#49312088;
+=======
+    color: red;
+>>>>>>> origin/master
     background-color: 8e5e3e;
 }
 
@@ -151,6 +166,10 @@ h1 {
 img {
     position: absolute;
     top:0;
+<<<<<<< HEAD
     width: 14%;
+=======
+    width: 13%;
+>>>>>>> origin/master
     height: 22%;
 }
